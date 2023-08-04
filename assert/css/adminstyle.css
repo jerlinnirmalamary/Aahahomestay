@@ -1,0 +1,42 @@
+.adbx {
+    display: flex;
+    justify-content: center;
+    background-color: #c0c9d8;
+    height: 95vh;
+}
+
+form {
+    height: 320px;
+    width: 300px;
+    background-color: #fffffc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 170px;
+}
+
+
+.input3 {
+    height: 40px;
+    padding: 0 10px;
+    width: 250px;
+    border-radius: 15px;
+    border: none;
+    background-color: #c0c9d8;
+    margin: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.log {
+    background-color: crimson;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}

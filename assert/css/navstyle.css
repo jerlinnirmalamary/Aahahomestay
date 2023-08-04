@@ -1,0 +1,26 @@
+.navbar1 {
+    background-color: #b7385c;
+}
+
+.hi {
+    color: aliceblue;
+    padding: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.names {
+    color: aliceblue !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+}
+
+.hi:focus {
+    color: yellow !important;
+}
+
+.hi:hover {
+    transition: 1s;
+    color: #87c915;
+}
