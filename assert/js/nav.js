@@ -8,7 +8,7 @@ const phonenumber = document.getElementById("phonenumber");
 const text = document.getElementById("text");
 const closebtn = document.getElementById("close");
 const containerbx1 = document.getElementById("containerbx1");
-const body = document.getElementsByTagName('body')[0];
+
 
 
 
@@ -107,8 +107,8 @@ closebtn.addEventListener("click", () => {
 
 const nav_link = document.getElementById('navlink');
 const containerbox = document.getElementById('containerbx1');
-// const bodyy = document.body;
-const bodyy = document.getElementByTagName('body');
+
+
 
 
 nav_link.addEventListener('click', () => {
@@ -117,12 +117,6 @@ nav_link.addEventListener('click', () => {
 });
 
 
-// bodyy.addEventListener('click', () => {
-//     if (containerbox < "flex") {
-//         containerbox.style.display = "none";
-
-//     }
-// })
 
 
 

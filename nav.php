@@ -36,13 +36,13 @@
             <div class="collapse navbar-collapse" id="myNavBar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active text-center">
-                        <a class="hi" href="http://localhost/Homestayproject/index.php" class="nav-link">Home</a>
+                        <a class="hi" href="./index.php" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="hi" href="http://localhost/Homestayproject/gallery.php" class="nav-link">Gallery</a>
+                        <a class="hi" href="./gallery.php" class="nav-link">Gallery</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="hi" href="http://localhost/Homestayproject/ourprice.php" class="nav-link">Our
+                        <a class="hi" href="./ourprice.php" class="nav-link">Our
                             Prices</a>
                     </li>
                     <li class="nav-item text-center">
