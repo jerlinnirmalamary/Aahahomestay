@@ -52,7 +52,7 @@
 
 
                     <li class="nav-item text-center">
-                        <a class="hi" href="http://localhost/Homestayproject/admin.php" class="nav-link">Admin</a>
+                        <a class="hi" href="./admin.php" class="nav-link">Admin</a>
                     </li>
 
 
