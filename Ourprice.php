@@ -28,7 +28,7 @@
             <div class="wrs11">Peak Season: Rs.12,000/night</div>
             <div class="wrs1">Peak Season</div>
             <div class="wrs12">May 01 - June 05 and Dec 15 - Jan 05</div>
-            <a href="http://localhost/Homestayproject/bookingform.php" class="btn btn-danger btn2" role="button">BOOK
+            <a href="./bookingform.php" class="btn btn-danger btn2" role="button">BOOK
                 NOW</a>
             <!-- <a href="#" class="btn2">BOOK NOW </a> -->
         </div>
