@@ -18,48 +18,111 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar1">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar1" id="nav">
+            <!-- <div class=""> -->
 
 
-                <a href="" class="navbar-brand names">AAHA HOMESTAY</a>
+            <a href="" class="navbar-brand names">AAHA HOMESTAY</a>
 
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar"
-                    aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle-navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar"
+                aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle-navigation">
+                <span class="navbar-toggler-icon"></span>
 
-                </button>
+            </button>
 
 
 
-                <div class="collapse navbar-collapse" id="myNavBar">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item active text-center">
-                            <a class="hi" href="http://localhost/Homestayproject/index.php" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item text-center">
-                            <a class="hi" href="http://localhost/Homestayproject/gallery.php"
-                                class="nav-link">Gallery</a>
-                        </li>
-                        <li class="nav-item text-center">
-                            <a class="hi" href="http://localhost/Homestayproject/ourprice.php" class="nav-link">Our
-                                Prices</a>
-                        </li>
-                        <li class="nav-item text-center">
-                            <a class="hi" href="http://localhost/Homestayproject/contact.php" class="nav-link">Contact
-                                Us</a>
-                        </li>
-                        <li class="nav-item text-center">
-                            <a class="hi" href="http://localhost/Homestayproject/admin.php" class="nav-link">Admin</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse" id="myNavBar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active text-center">
+                        <a class="hi" href="http://localhost/Homestayproject/index.php" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="hi" href="http://localhost/Homestayproject/gallery.php" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="hi" href="http://localhost/Homestayproject/ourprice.php" class="nav-link">Our
+                            Prices</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <button class="hi " id="navlink">Contact Us</button>
+
+                    </li>
+
+
+                    <li class="nav-item text-center">
+                        <a class="hi" href="http://localhost/Homestayproject/admin.php" class="nav-link">Admin</a>
+                    </li>
+
+
+                </ul>
             </div>
+            <!-- </div> -->
         </nav>
     </header>
 
 
+    <div class="container-fluid containerbx1" id="containerbx1">
+        <div class="boxx1">
+            <div class="header">
+                <h3 class="con">Contact Us</h3>
+                <p class="pp">Please fill in the details below, submit the form and we will process your enquiry as
+                    quickly
+                    possible.</p>
+            </div>
+            <form class="form" id="form">
+
+
+                <div class="form-control">
+
+                    <input type="text" placeholder="Full Name" id="username">
+                    <i class="fa-solid fa-square-check"></i>
+                    <i class="fa-solid fa-info"></i>
+                    <small>Error msg</small>
+                </div>
+
+
+                <div class="form-control">
+
+                    <input type="text" placeholder="Email Addreass" id="email">
+                    <i class="fa-solid fa-square-check"></i>
+                    <i class="fa-solid fa-info"></i>
+                    <small>Error msg</small>
+                </div>
+
+
+                <div class="form-control">
+
+                    <input type="text" placeholder="Phone Number" id="phonenumber" onkeydown="phoneNumberFormatter()">
+                    <i class="fa-solid fa-square-check"></i>
+                    <i class="fa-solid fa-info"></i>
+                    <small>Please Enter Phone number</small>
+                </div>
+
+                <div class="form-control">
+                    <textarea name="comments" id="text" cols="45" rows="3" class="textarea"
+                        placeholder="Message"></textarea>
+                    <i class="fa-solid fa-square-check"></i>
+                    <i class="fa-solid fa-info"></i>
+                    <small>Error msg</small>
+                </div>
+
+
+
+                <div class="bttn">
+                    <button type="button" class="button1" id="close">Close</button>
+                    <input class="button2" type="Submit">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <script src="./assert/js/nav.js"></script>
 
 </body>
 

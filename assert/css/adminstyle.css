@@ -1,42 +1,158 @@
-.adbx {
+.conbox {
     display: flex;
     justify-content: center;
-    background-color: #c0c9d8;
-    height: 95vh;
+    /* align-items: center; */
+
+    background-color: hsl(197, 35%, 84%);
+    height: 120vh;
+    max-width: 100%;
+    width: 100%;
+
+
 }
 
-form {
-    height: 320px;
-    width: 300px;
-    background-color: #fffffc;
+.box1 {
     display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 350px;
+    margin-top: 200px;
+    position: fixed;
+    background-color: #ffffff;
+    padding: 12px 15px;
+    border-radius: 15px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+
+
+}
+
+.wd1 {
+    font-size: 30px;
+}
+
+.wd2 {
+    display: flex;
+    max-width: 300px;
     text-align: center;
-    border-radius: 15px;
-    margin-top: 170px;
+    font-size: 18px;
 }
 
+.form1 {
+    padding: 5px 10px;
 
-.input3 {
-    height: 40px;
-    padding: 0 10px;
-    width: 250px;
+
+}
+
+.form-Controll {
+
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+
+
+}
+
+.form-Controll input {
+    border: 2px solid rgb(121, 109, 109);
+    background-color: hsl(197, 35%, 84%);
     border-radius: 15px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
     border: none;
-    background-color: #c0c9d8;
-    margin: 10px;
-    margin-bottom: 20px;
+
 
 
 }
 
-.log {
+input::placeholder {
+    color: rgb(111, 103, 103);
+    font-size: 17px;
+    padding: 10px;
+}
+
+
+.form-Controll input:focus {
+    outline: none;
+    border: 1px solid rgb(106, 191, 236);
+
+}
+
+.form-Controll.success input {
+    border: 1px solid #63e699;
+}
+
+.form-Controll.error input {
+    border: 1px solid rgb(241, 106, 106);
+}
+
+.form-Controll i {
+    visibility: hidden;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.form-Controll.success i.fa-square-check {
+    color: #07af4d;
+    visibility: visible;
+    /* border-radius: 10px; */
+}
+
+.form-Controll.error i.fa-info {
+    color: crimson;
+    visibility: visible;
+
+}
+
+.form-Controll small {
+    visibility: hidden;
+    color: crimson;
+    position: absolute;
+    left: 20px;
+    bottom: -5px !important;
+
+}
+
+.form-Controll.error small {
+    visibility: visible;
+}
+
+
+.bttnn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.buttonn {
+    padding: 10px 18px;
     background-color: crimson;
-    padding: 7px 15px;
-    border-radius: 5px;
     border: none;
-    color: white;
+    color: wheat;
+    border-radius: 5px;
+    font-size: 18px;
     font-weight: bold;
+}
+
+.buttonn:hover {
+    background-color: wheat;
+    color: crimson;
+}
+
+
+@media screen and (max-width:800px) {
+    .box1 {
+
+        margin-top: 100px;
+    }
 }

@@ -11,30 +11,32 @@
 
 <body>
     <?php include("nav.php")?>
+    <div class="container-fluid containerrr p-0 footer">
+        <!-- <div class="container"> -->
+        <h1>GALLERY</h1>
+        <div class="image-containerrr">
+            <div class="image"><img src="./assert/image/img1.jpg" alt=""></div>
+            <div class="image"><img src="./assert/image/img2.jpg" alt=""></div>
+            <div class="image"><img src="./assert/image/img3.jpg" alt=""></div>
+            <div class="image"><img src="./assert/image/img4.jpg" alt=""></div>
+            <div class="image"><img src="./assert/image/img5.jpg" alt=""></div>
+            <div class="image"><img src="./assert/image/image1.jpg" alt=""></div>
+            <div class="image"><img src="./assert/image/img7.jpg" alt=""></div>
+            <div class="image"><img src="./assert/image/img8.jpg" alt=""></div>
+            <div class="image"><img src="./assert/image/img9.jpg" alt=""></div>
 
-    <div class="container-fluid p-0 gallery ">
-        <h1 class="gal">GALLERY</h1>
-        <div class="galbox">
-            <div class="imgbx"><img class="gimg" src="./assert/image/img1.jpg" alt=""></div>
-            <div class="imgbx"><img class="gimg" src="./assert/image/img2.jpg" alt=""></div>
-            <div class="imgbx"><img class="gimg" src="./assert/image/img3.jpg" alt=""></div>
-            <div class="imgbx"><img class="gimg" src="./assert/image/img4.jpg" alt=""></div>
-            <div class="imgbx"><img class="gimg" src="./assert/image/img5.jpg" alt=""></div>
-            <div class="imgbx"><img class="gimg" src="./assert/image/image1.jpg" alt=""></div>
-            <div class="imgbx"><img class="gimg" src="./assert/image/img7.jpg" alt=""></div>
-            <div class="imgbx"><img class="gimg" src="./assert/image/img8.jpg" alt=""></div>
-            <div class="imgbx"><img class="gimg" src="./assert/image/img9.jpg" alt=""></div>
-            <!-- <div class="imgboxdiv" id="imgboxdiv"></div> -->
 
         </div>
 
-        <div class="popup-imag">
-
-            <div class="imgbx"><img class="gimg1" src="./assert/image/img1.jpg" alt=""></div>
+        <div class="popup-image">
+            <!-- <span>&times;</span> -->
+            <img src="./image/image1.jpg" alt="">
         </div>
-
     </div>
-    <div class="container-fluid p-0 footer">
+
+
+
+    <div class="container-fluid p-0 footerr">
 
         <h5>AAHA HOMESTAY</h5>
         <h6>12'th Cross Street Anna Nagar, Pondicherry 605005 India</h6>

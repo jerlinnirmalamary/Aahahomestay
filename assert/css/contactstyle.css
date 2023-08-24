@@ -1,60 +1,129 @@
-.contbox {
+/* .containerbx1 {
+
+    font-family: sans-serif;
+    background-color: #a6a4aa;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: rgb(238, 234, 225);
-
-
-}
-
-form {
-    height: 480px;
-    width: 400px;
-    padding: 12px;
-    background-color: #fffffc;
-    border-radius: 15px;
-    display: flex;
-    /* justify-content: center; */
     flex-direction: column;
-    align-items: center;
+    height: 100vh;
+
+
 
 }
 
-.con {
-    padding: 10px;
-    color: crimson;
-    font-weight: bold;
+
+.boxx1 {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 500px;
+    padding: 10px 0;
+
+
 }
 
-.pp {
+.header {
+    padding: 0px 10px;
     text-align: center;
 }
 
-.input1,
-.input2,
-.input3 {
-    height: 50px;
-    padding: 0 10px;
-    width: 350px;
-    border-radius: 15px;
-    border: none;
-    background-color: #c0c9d8;
-    margin: 10px;
+.con {
+    padding: 0px 5px;
+    color: crimson;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.pp {
+    padding: 5px;
+    text-align: center;
+    color: #68696a;
+}
+
+.form {
+    padding: 5px 40px;
+}
+
+.form-control {
+    background: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    border: none !important;
+
+
 
 
 }
 
-
-
-.textarea {
-    background-color: #c0c9d8;
+.form-control input {
+    border: 2px solid rgb(231, 37, 37);
+    background-color: #dae6f6;
     border-radius: 15px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
     border: none;
-    padding: 0 8px;
+
+
+
 }
 
+input::placeholder {
+    color: black;
+}
 
+.form-control input:focus {
+    outline: none;
+    border: 1px solid rgb(105, 198, 235);
+}
+
+.form-control.success input {
+
+    border: 1px solid #63e699;
+}
+
+.form-control.error input {
+
+    border: 1px solid rgb(241, 106, 106);
+}
+
+.form-control i {
+    visibility: hidden;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+}
+
+.form-control.success i.fa-square-check {
+
+    color: #07af4d;
+    visibility: visible;
+    border-radius: 10px;
+}
+
+.form-control.error i.fa-info {
+    color: crimson;
+    visibility: visible;
+
+}
+
+.form-control small {
+    visibility: hidden;
+    color: crimson;
+    position: absolute;
+    left: 22px;
+    bottom: -12px !important;
+
+}
+
+.form-control.error small {
+    visibility: visible;
+}
 
 .bttn {
     display: flex;
@@ -63,7 +132,9 @@ form {
     justify-content: space-between;
     height: 50px;
     margin-top: 15px;
+    margin-left: 10px;
     width: 95%;
+
 
 }
 
@@ -77,8 +148,16 @@ form {
     font-weight: bold;
 }
 
-.ad {
-    color: black;
-    font-size: 15px;
-    font-weight: bold;
+.textarea {
+    background-color: #dae6f6;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    display: block;
+    font-size: 18px;
+    width: 100%;
 }
+
+textarea::placeholder {
+    color: black;
+} */

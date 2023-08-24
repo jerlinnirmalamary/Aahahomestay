@@ -2,16 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Merriweather+Sans:ital@1&family=Noto+Sans:wght@600;700&family=Play&family=Poppins:wght@500;600&family=Rubik:wght@500&family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Merriweather+Sans:ital@1&family=Noto+Sans:wght@600;700&family=Play&family=Poppins:wght@500;600&family=Ubuntu:wght@500&display=swap');
 
-.navbar1 {
-    background: transparent;
-}
+
 
 .main {
-
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background: url('../image/image1.jpg');
     background-size: cover;
@@ -22,7 +20,7 @@
 }
 
 .cont {
-    height: 80vh;
+    height: 90vh;
     width: 100% !important;
     background-color: rgba(5, 4, 4, 0.5);
 
@@ -62,6 +60,7 @@
     height: 60vh;
     width: 100%;
     background-color: #b0bec2;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,4 +157,55 @@ h5 {
     color: white !important;
     font-weight: bold !important;
     padding: 8px 15px !important;
+}
+
+@media only screen and (max-width: 991px) and (min-width:200px) {
+
+
+    .font1 {
+
+        margin-top: 170px;
+
+    }
+
+    .font2 {
+        margin-bottom: 10px;
+    }
+
+    .main {
+        height: 100vh;
+
+    }
+
+    .cont {
+        height: 100vh;
+
+        background-color: rgba(5, 4, 4, 0.5);
+
+
+    }
+
+    .footer {
+        margin-top: 5px;
+        background-color: #b7385c;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        color: aliceblue;
+    }
+
+
+
+    .mainbox {
+
+        height: 230vh;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        background-color: #b0bec2;
+        /* color: gray; */
+    }
 }
