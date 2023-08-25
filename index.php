@@ -29,7 +29,7 @@
 
             <div class="text-center">
 
-                <a href="#" class="btn btnnn1" role="button">BOOK NOW</a>
+                <a href="./bookingform.php" class="btn btnnn1" role="button">BOOK NOW</a>
             </div>
 
         </div>

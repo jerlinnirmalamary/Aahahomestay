@@ -25,7 +25,7 @@
             <a href="" class="navbar-brand names">AAHA HOMESTAY</a>
 
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar"
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar"
                 aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle-navigation">
                 <span class="navbar-toggler-icon"></span>
 
@@ -64,7 +64,7 @@
 
 
     <div class="container-fluid containerbx1" id="containerbx1">
-        <div class="boxx1">
+        <div class="boxx1" id="boxx1">
             <div class="header">
                 <h3 class="con">Contact Us</h3>
                 <p class="pp">Please fill in the details below, submit the form and we will process your enquiry as
@@ -93,8 +93,8 @@
 
 
                 <div class="form-control">
-
-                    <input type="text" placeholder="Phone Number" id="phonenumber" onkeydown="phoneNumberFormatter()">
+                    <!-- " onkeydown="phoneNumberFormatter() -->
+                    <input type="text" placeholder="Phone Number" id="phonenumber">
                     <i class="fa-solid fa-square-check"></i>
                     <i class="fa-solid fa-info"></i>
                     <small>Please Enter Phone number</small>
@@ -116,6 +116,7 @@
                 </div>
 
             </form>
+
         </div>
 
     </div>

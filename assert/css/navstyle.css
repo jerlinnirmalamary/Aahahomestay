@@ -34,9 +34,10 @@ button {
     color: #87c915;
 }
 
-@media (max-width=600px) {
-    .navbar1 {
-        margin-bottom: 200px;
+@media screen and (max-width:570px) {
+    .names {
+        font-size: 20px !important;
+
     }
 }
 
@@ -52,18 +53,18 @@ button {
     position: fixed;
     top: 0;
     font-family: sans-serif;
-    /* background-color: #a6a4aa; */
-    background-color: rgba(32, 31, 31, 0.5);
+    /* background-color: transparent; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
     display: none;
-    z-index: 100;
+    z-index: 200;
 
 
 }
+
 
 
 .boxx1 {

@@ -8,6 +8,7 @@ const phonenumber = document.getElementById("phonenumber");
 const text = document.getElementById("text");
 const closebtn = document.getElementById("close");
 const containerbx1 = document.getElementById("containerbx1");
+const boxx1 = document.getElementById("boxx1");
 
 
 
@@ -95,10 +96,17 @@ function isEmail(email) {
 }
 
 // close box
-closebtn.addEventListener("click", () => {
 
-    containerbx1.style.display = "none";
+
+
+containerbx1.addEventListener('click', () => {
+    boxx1.style.display = 'none';
+
 })
+containerbx1.style.backgroundColor = "none";
+
+
+
 
 
 

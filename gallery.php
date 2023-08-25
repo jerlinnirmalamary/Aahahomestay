@@ -11,7 +11,7 @@
 
 <body>
     <?php include("nav.php")?>
-    <div class="container-fluid containerrr p-0 footer">
+    <div class="container-fluid containerrr p-0">
         <!-- <div class="container"> -->
         <h1>GALLERY</h1>
         <div class="image-containerrr">
