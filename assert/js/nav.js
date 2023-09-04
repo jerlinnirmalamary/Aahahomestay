@@ -95,15 +95,47 @@ function isEmail(email) {
         .test(email);
 }
 
+
+
+
+
+
 // close box
 
+// closebtn.addEventListener('click', () => {
+//     boxx1.style.display = "none";
+// })
+
+// containerbx1.addEventListener('click', () => {
+//     boxx1.style.display = 'none';
+
+// })
 
 
-containerbx1.addEventListener('click', () => {
-    boxx1.style.display = 'none';
 
+
+function fun(event) {
+    console.log(event.target);
+    if (!event.target.contains(boxx1)) {
+        containerbx1.style.display = "flex";
+    }
+    else {
+        containerbx1.style.display = "none";
+
+    }
+};
+
+
+closebtn.addEventListener('click', () => {
+    boxx1.style.display = "none";
 })
-containerbx1.style.backgroundColor = "none";
+
+
+
+
+
+
+
 
 
 
@@ -113,13 +145,13 @@ containerbx1.style.backgroundColor = "none";
 
 // contact box
 
-const nav_link = document.getElementById('navlink');
+const navLink = document.getElementById('navlink');
 const containerbox = document.getElementById('containerbx1');
 
 
 
 
-nav_link.addEventListener('click', () => {
+navLink.addEventListener('click', () => {
 
     containerbox.style.display = "flex";
 });
