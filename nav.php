@@ -63,7 +63,7 @@
     </header>
 
 
-    <div class="container-fluid containerbx1" id="containerbx1">
+    <div class="container-fluid containerbx1" id="containerbx1" onclick="fun(event)">
         <div class="boxx1" id="boxx1">
             <div class="header">
                 <h3 class="con">Contact Us</h3>
@@ -112,7 +112,8 @@
 
                 <div class="bttn">
                     <button type="button" class="button1" id="close">Close</button>
-                    <input class="button2" type="Submit">
+                    <button type="submit" class="button2" id="submit">Submit</button>
+                    <!-- <input class="button2" type="Submit"> -->
                 </div>
 
             </form>

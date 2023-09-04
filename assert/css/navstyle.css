@@ -63,6 +63,7 @@ button {
     z-index: 200;
 
 
+
 }
 
 
@@ -71,7 +72,6 @@ button {
 
     background-color: white;
     border-radius: 10px;
-    /* overflow: hidden; */
     max-width: 100%;
     width: 500px;
     padding: 10px 0;
