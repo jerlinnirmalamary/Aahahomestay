@@ -62,7 +62,7 @@
 
 
 .footer {
-    margin-top: 5px;
+    margin-top: 60px;
     background-color: #831937;
     height: 100px;
     width: 100%;
@@ -80,9 +80,9 @@ h5 {
 }
 
 
-@media only screen and (max-width: 991px) and (min-width:200px) {
+/* @media only screen and (max-width: 991px) and (min-width:200px) {
 
     .footer {
         margin-top: 250px;
     }
-}
+} */
