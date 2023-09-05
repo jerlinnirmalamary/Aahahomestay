@@ -9,6 +9,7 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 150px;
+
 }
 
 span {
@@ -34,10 +35,10 @@ span {
 }
 
 .btn2 {
-    padding: 8px 90px !important;
+    padding: 8px 105px !important;
     background-color: crimson !important;
     color: white !important;
-    margin-left: 20px;
+
 }
 
 .btn2:hover {
@@ -91,13 +92,19 @@ span {
         color: aliceblue;
     }
 
+
+
 }
 
 @media screen and (max-width: 350px) {
 
     .ourbox {
-        position: relative;
+        text-align: center;
+        justify-content: center;
+
     }
+
+
 
     h6 {
         text-align: center;
@@ -106,24 +113,23 @@ span {
     }
 
     .boxdiv {
-        z-index: 5;
-        margin-top: 0;
-        position: absolute;
-        top: 150px;
+        max-width: 100%;
+        height: fit-content;
     }
 
+    .btn2 {
+        font-size: 15px !important;
+        padding: 10px 20px !important;
+    }
 
     .footerrr {
-        height: 150px;
-        position: absolute;
-        top: 600px;
-        margin-top: 0;
-
-        z-index: 2;
-
+        height: fit-content;
+        margin-top: 30px;
+        padding: 30px 20px;
     }
 
     .move {
-        padding-top: 20px;
+        margin-top: 20px;
     }
+
 }

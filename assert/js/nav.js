@@ -100,20 +100,13 @@ function isEmail(email) {
 
 
 
-// close box
-
-// closebtn.addEventListener('click', () => {
-//     boxx1.style.display = "none";
-// })
-
-// containerbx1.addEventListener('click', () => {
-//     boxx1.style.display = 'none';
-
-// })
 
 
 
 
+
+
+// box 
 function fun(event) {
     console.log(event.target);
     if (!event.target.contains(boxx1)) {
@@ -125,7 +118,7 @@ function fun(event) {
     }
 };
 
-
+// close box
 closebtn.addEventListener('click', () => {
     boxx1.style.display = "none";
 })
@@ -147,9 +140,6 @@ closebtn.addEventListener('click', () => {
 
 const navLink = document.getElementById('navlink');
 const containerbox = document.getElementById('containerbx1');
-
-
-
 
 navLink.addEventListener('click', () => {
 

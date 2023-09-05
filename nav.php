@@ -93,7 +93,7 @@
 
 
                 <div class="form-control">
-                    <!-- " onkeydown="phoneNumberFormatter() -->
+
                     <input type="text" placeholder="Phone Number" id="phonenumber">
                     <i class="fa-solid fa-square-check"></i>
                     <i class="fa-solid fa-info"></i>
@@ -113,7 +113,7 @@
                 <div class="bttn">
                     <button type="button" class="button1" id="close">Close</button>
                     <button type="submit" class="button2" id="submit">Submit</button>
-                    <!-- <input class="button2" type="Submit"> -->
+
                 </div>
 
             </form>

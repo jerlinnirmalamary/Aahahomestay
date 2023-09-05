@@ -1,5 +1,6 @@
 .navbar1 {
     background-color: #b7385c;
+    /* background: transparent; */
     cursor: pointer;
     font-size: 18px;
     padding: 8px 35px !important;
@@ -43,9 +44,6 @@ button {
 
 
 
-
-
-
 /* Contact css */
 
 
@@ -53,7 +51,6 @@ button {
     position: fixed;
     top: 0;
     font-family: sans-serif;
-    /* background-color: transparent; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,12 +58,7 @@ button {
     height: 100vh;
     display: none;
     z-index: 200;
-
-
-
 }
-
-
 
 .boxx1 {
 
@@ -100,7 +92,7 @@ button {
 
 .form {
     padding: 5px 40px;
-    /* background-color: #07af4d; */
+
 }
 
 .form-control {
@@ -124,9 +116,6 @@ button {
     padding: 10px;
     width: 100%;
     border: none;
-
-
-
 }
 
 input::placeholder {

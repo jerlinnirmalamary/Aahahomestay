@@ -179,6 +179,12 @@ h5 {
     padding: 8px 15px !important;
 }
 
+#nav {
+    background-color: transparent;
+}
+
+
+
 @media only screen and (max-width: 1200px) and (min-width:150px) {
 
 

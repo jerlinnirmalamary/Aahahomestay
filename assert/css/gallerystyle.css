@@ -8,7 +8,6 @@
 
 .containerrr {
     position: relative;
-    min-width: 100vh;
     background: #ffffff;
     margin-top: 100px;
 
@@ -33,13 +32,13 @@
     flex-wrap: wrap;
     gap: 45px;
     justify-content: center;
-    padding: 10px 130px;
+    /* padding: 10px 130px; */
 
 }
 
 .image {
-    height: 180px;
-    width: 280px;
+    height: 200px;
+    max-width: 280px;
     /* border: 10px solid #fff; */
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     overflow: hidden;
@@ -52,11 +51,6 @@
     /* object-fit: cover; */
     transition: .2s linear;
 }
-
-
-/* .image:hover {
-    transform: scale(1.1);
-} */
 
 .popup-image {
     position: fixed;
@@ -78,7 +72,7 @@
     /* border: 5px solid #fff; */
     border-radius: 5px;
     width: 900px;
-    height: 650px;
+    height: 500px;
     object-fit: cover;
     margin-top: 0;
 }
@@ -97,6 +91,12 @@
 
 @media (max-width:768px) {
     .popup-image img {
-        width: 95%;
+        width: 70%;
     }
+
+    .footerr {
+        width: 100%;
+        /* max-width: 100%; */
+    }
+
 }

@@ -14,7 +14,7 @@
     <div class="container-fluid containerrr p-0">
         <!-- <div class="container"> -->
         <h1>GALLERY</h1>
-        <div class="image-containerrr">
+        <div class="container image-containerrr">
             <div class="image"><img src="./assert/image/img1.jpg" alt=""></div>
             <div class="image"><img src="./assert/image/img2.jpg" alt=""></div>
             <div class="image"><img src="./assert/image/img3.jpg" alt=""></div>
@@ -36,6 +36,7 @@
 
 
 
+
     <div class="container-fluid p-0 footerr">
 
         <h5>AAHA HOMESTAY</h5>
@@ -43,6 +44,7 @@
         <h6>Phone: +91-8098299921</h6>
         <h6>WhatsApp: +91-8098299921</h6>
     </div>
+
     <script src="./assert/js/gallery.js"></script>
 </body>
 
